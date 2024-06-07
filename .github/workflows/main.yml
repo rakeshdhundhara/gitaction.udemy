@@ -1,3 +1,14 @@
+# name: first workflow
+# on: workflow_dispatch
+# jobs:
+#   first-job:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: PRINT GEETING
+#         run: echo "hello rakesh"
+#       - name: print 
+#         run: echo "good bye"
+      
 name: first workflow
 on: workflow_dispatch
 jobs:
@@ -5,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: PRINT GEETING
-        run: echo "hello rakesh"
-      - name: print 
-        run: echo "good bye"
+        run:
+            echo "hello rakesh" 
+            echo "good bye"
       
