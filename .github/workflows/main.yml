@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: PRINT GEETING
-        run:
+        run: |
             echo "hello rakesh" 
             echo "good bye"
       
